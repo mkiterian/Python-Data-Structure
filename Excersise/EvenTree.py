@@ -27,7 +27,7 @@ def count_nodes(edge_list, n, m):
 
 
 if __name__ == '__main__':
-    # n,m= map(int, raw_input())
+    # n,m= map(int, input())
     n, m = 10, 9
     edge_list = [(2,1),(3, 1),(4,3),(5,2),(6,1),(7,2),(8,6),(9, 8),(10, 8)]
     s = count_nodes(edge_list,n,m)

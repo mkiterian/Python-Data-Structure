@@ -33,7 +33,7 @@
 # Hence, the total happiness is 2?1=12?1=1.
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-a= raw_input() == "" or list(map(int, raw_input().split()))
-b = set(map(int, raw_input().split()))
-c = set(map(int, raw_input().split()))
+a= input() == "" or list(map(int, input().split()))
+b = set(map(int, input().split()))
+c = set(map(int, input().split()))
 print sum([1 if x in b else 0 for x in a]) - sum([1 if x in c else 0 for x in a])

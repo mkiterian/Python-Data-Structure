@@ -25,7 +25,7 @@ __author__ = 'Sanjay'
 # 5
 # 9
 # 11
-# 12raw_input
+# 12input
 
 input()
 a=set(map(int,().split()))

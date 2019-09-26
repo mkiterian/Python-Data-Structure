@@ -37,8 +37,8 @@
 
 
 
-deliveryInfo = map(int, raw_input().split())
-estimatedDeliveryInfo = map(int, raw_input().split())
+deliveryInfo = map(int, input().split())
+estimatedDeliveryInfo = map(int, input().split())
 
 
 deliveredDate = deliveryInfo[0]

@@ -93,10 +93,10 @@ __author__ = 'Sanjay'
 # Note: Convert the elements of set s to integers while you are assigning them. To ensure the proper input of the set, we have added the first two lines of code to the editor.
 
 n = input()
-s = set(map(int, raw_input().split()))
-m = int(raw_input())
+s = set(map(int, input().split()))
+m = int(input())
 for _ in xrange(m):
-    pair = raw_input().split()
+    pair = input().split()
     arg = pair[1] if len(pair) == 2 else ""
     eval("s." + pair[0] + "(" + arg + ")")
 print sum(s)

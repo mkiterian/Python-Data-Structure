@@ -34,10 +34,10 @@ __author__ = 'Sanjay'
 #
 # 5
 
-userInput1 = int(raw_input())
+userInput1 = int(input())
 listOfCountries = []
 for i in range(userInput1):
-    #raw_input()
-    listOfCountries.append(raw_input())
+    #input()
+    listOfCountries.append(input())
 finalResult = set(listOfCountries)
 print len(finalResult)

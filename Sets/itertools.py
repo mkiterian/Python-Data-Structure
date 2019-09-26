@@ -1,7 +1,7 @@
 __author__ = 'Sanjay'
 
-# a=map(int,raw_input().split(" "))
-# b=map(int,raw_input().split(" "))
+# a=map(int,input().split(" "))
+# b=map(int,input().split(" "))
 from itertools import product
 a = [1,2]
 b = [3,4]

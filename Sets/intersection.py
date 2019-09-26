@@ -51,7 +51,7 @@ __author__ = 'Sanjay'
 #
 
 #print ((len(input()==0 or set(input().split()) & (input()==0 or set(input().split())))))
-raw_input()
-t=set(map(int,raw_input().split()))
-raw_input()
-print len(t.intersection(set(map(int,raw_input().split()))))
+input()
+t=set(map(int,input().split()))
+input()
+print len(t.intersection(set(map(int,input().split()))))

@@ -34,6 +34,6 @@ __author__ = 'Sanjay'
 # 1,2,3,4,5,6,7,8,9,10,11,211,2,3,4,5,6,7,8,9,10,11,21 and 5555. Roll numbers: 1,2,3,61,2,3,6 and 88 are in both sets so they are only counted once.
 # Hence, the total is 1313 students.
 
-t=set(map(int,raw_input().split()))
-raw_input()
-print len(t.union(set(map(int,raw_input().split())))) + 12
+t=set(map(int,input().split()))
+input()
+print len(t.union(set(map(int,input().split())))) + 12

@@ -57,7 +57,7 @@ __author__ = 'Sanjay'
 # 8
 #  students.
 
-raw_input()
-t=set(map(int,raw_input().split()))
-raw_input()
-print len(t.symmetric_difference(set(map(int,raw_input().split()))))
+input()
+t=set(map(int,input().split()))
+input()
+print len(t.symmetric_difference(set(map(int,input().split()))))

@@ -35,10 +35,10 @@ __author__ = 'Sanjay'
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 from __future__ import division
 
-a = int(raw_input())
-#b = int(raw_input())
-#c = int(raw_input())
-#d = int(raw_input())
+a = int(input())
+#b = int(input())
+#c = int(input())
+#d = int(input())
 
 for i in range(0,a):
     print i*i

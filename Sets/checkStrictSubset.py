@@ -86,4 +86,4 @@ __author__ = 'Sanjay'
 # .
 #  Hence, the output is False.
 
-print [all([A > B for B in [set(raw_input().split()) for _ in xrange(int(raw_input()))]]) for A in [set(raw_input().split())]][0]
+print [all([A > B for B in [set(input().split()) for _ in xrange(int(input()))]]) for A in [set(input().split())]][0]

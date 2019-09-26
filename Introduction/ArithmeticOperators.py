@@ -3,8 +3,8 @@ __author__ = 'Sanjay'
 #
 # First, let's read two integers:
 #
-# a = int(raw_input())
-# b = int(raw_input())
+# a = int(input())
+# b = int(input())
 # The three basic arithmetic operators are the following:
 #
 # Addition (+)
@@ -43,8 +43,8 @@ __author__ = 'Sanjay'
 # 3?2?6
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-a = int(raw_input())
-b = int(raw_input())
+a = int(input())
+b = int(input())
 
 print a+b
 print a-b

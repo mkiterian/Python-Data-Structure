@@ -56,7 +56,7 @@ __author__ = 'Sanjay'
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 from __future__ import print_function
-a = int(raw_input())
+a = int(input())
 s = []
 for i in range(1, (a+1)):
     s.append(i)

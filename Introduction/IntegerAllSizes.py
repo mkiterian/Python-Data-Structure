@@ -26,10 +26,10 @@ __author__ = 'Sanjay'
 # Note: This result is bigger than 263?1263?1. Hence, it won't fit in the long long int of C++ or a 64-bit integer.
 from __future__ import division
 
-a = int(raw_input())
-b = int(raw_input())
-c = int(raw_input())
-d = int(raw_input())
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
 
 x = a**b
 y = c**d

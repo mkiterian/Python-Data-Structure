@@ -23,9 +23,9 @@ __author__ = 'Sanjay'
 # 1
 from __future__ import division
 
-a = int(raw_input())
-b = int(raw_input())
-m = int(raw_input())
+a = int(input())
+b = int(input())
+m = int(input())
 
 t = pow(a,b)
 

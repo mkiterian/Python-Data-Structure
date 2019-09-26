@@ -15,7 +15,7 @@ def commonLogicPlusMyOwnImplementation(n):
         print("It's a Odd Number")
 if __name__ == '__main__':
     try:
-        getIn = raw_input("Please give a input to check whether the number is even or odd")
+        getIn = input("Please give a input to check whether the number is even or odd")
         if getIn.isdigit(): # checks whether the user given input is valid or not.
             if getIn == 1 or getIn >1:
                 commonLogicPlusMyOwnImplementation(int(getIn))

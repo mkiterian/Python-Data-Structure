@@ -12,7 +12,7 @@ def testing(args):
 
 if __name__ == '__main__':
     a=int(input())
-    b = list(raw_input())
+    b = list(input())
     while True:
         try:
             b.remove(" ")

@@ -44,7 +44,7 @@ def findNumbers(totalTest):
 #     op = []
 #     res = 0
 #     for i in range(totalTestC):
-#         resultSum, firstInput, secondInput = map(int, raw_input().split())
+#         resultSum, firstInput, secondInput = map(int, input().split())
 #         firstList = range(1, firstInput)
 #         secondList = range(1, secondInput)
 #
